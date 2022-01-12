@@ -25,7 +25,7 @@ class Friends {
 
 
   addFriends() {
-    var friendIndex = "firends/" + friend.name + this.index;
+    var friendIndex = "friends/" + friend.name + this.index;
     console.log(friendIndex);
     database.ref(friendIndex).set({
       name: this.name,
