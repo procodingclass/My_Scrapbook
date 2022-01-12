@@ -29,7 +29,8 @@ class Friends {
     console.log(friendIndex);
     database.ref(friendIndex).set({
       name: this.name,
-      message: this.message
+      message: this.message,
+      index: this.index
     });
   }
 
